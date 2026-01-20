@@ -1,0 +1,38 @@
+┌──(kali㉿kali)-[~]
+└─$ sudo su 
+[sudo] password for kali: 
+┌──(root㉿kali)-[/home/kali]
+└─# msfconsole
+Metasploit tip: Add routes to pivot through a compromised host using route 
+add <subnet> <session_id>
+                                                  
+
+      .:okOOOkdc'           'cdkOOOko:.
+    .xOOOOOOOOOOOOc       cOOOOOOOOOOOOx.
+   :OOOOOOOOOOOOOOOk,   ,kOOOOOOOOOOOOOOO:
+  'OOOOOOOOOkkkkOOOOO: :OOOOOOOOOOOOOOOOOO'
+  oOOOOOOOO.MMMM.oOOOOoOOOOl.MMMM,OOOOOOOOo
+  dOOOOOOOO.MMMMMM.cOOOOOc.MMMMMM,OOOOOOOOx
+  lOOOOOOOO.MMMMMMMMM;d;MMMMMMMMM,OOOOOOOOl
+  .OOOOOOOO.MMM.;MMMMMMMMMMM;MMMM,OOOOOOOO.
+   cOOOOOOO.MMM.OOc.MMMMM'oOO.MMM,OOOOOOOc
+    oOOOOOO.MMM.OOOO.MMM:OOOO.MMM,OOOOOOo
+     lOOOOO.MMM.OOOO.MMM:OOOO.MMM,OOOOOl
+      ;OOOO'MMM.OOOO.MMM:OOOO.MMM;OOOO;
+       .dOOo'WM.OOOOocccxOOOO.MX'xOOd.
+         ,kOl'M.OOOOOOOOOOOOO.M'dOk,
+           :kk;.OOOOOOOOOOOOO.;Ok:
+             ;kOOOOOOOOOOOOOOOk:
+               ,xOOOOOOOOOOOx,
+                 .lOOOOOOOl.
+                    ,dOd,
+                      .
+
+       =[ metasploit v6.4.103-dev                               ]
++ -- --=[ 2,584 exploits - 1,319 auxiliary - 1,697 payloads     ]
++ -- --=[ 434 post - 49 encoders - 14 nops - 9 evasion          ]
+
+Metasploit Documentation: https://docs.metasploit.com/
+The Metasploit Framework is a Rapid7 Open Source Project
+
+[*] Starting persistent handler(s)...
