@@ -1,0 +1,31 @@
+┌──(kali㉿kali)-[~]
+└─$ msfdb init
+[-] Error: /usr/bin/msfdb must be run as root
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ sudo msfdb init
+[sudo] password for kali: 
+[+] Starting database
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.41, but the operating system provides version 2.42.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+[+] Creating database user 'msf'
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.41, but the operating system provides version 2.42.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.41, but the operating system provides version 2.42.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+[+] Creating databases 'msf'
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.41, but the operating system provides version 2.42.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.41, but the operating system provides version 2.42.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+[+] Creating databases 'msf_test'
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.41, but the operating system provides version 2.42.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+[+] Creating configuration file '/usr/share/metasploit-framework/config/database.yml'
+[+] Creating initial database schema
