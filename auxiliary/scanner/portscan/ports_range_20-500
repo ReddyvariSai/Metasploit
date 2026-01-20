@@ -1,0 +1,29 @@
+View the full module info with the info, or info -d command.
+
+msf auxiliary(scanner/portscan/tcp) > set
+set   setg  
+msf auxiliary(scanner/portscan/tcp) > set PoRTS 20-500
+PoRTS => 20-500
+msf auxiliary(scanner/portscan/tcp) > run
+
+
+[-] Msf::OptionValidateError One or more options failed to validate: RHOSTS.
+
+
+msf auxiliary(scanner/portscan/tcp) > set rhosts 192.168.133.129
+rhosts => 192.168.133.129
+msf auxiliary(scanner/portscan/tcp) > set PoRTS 20-500
+PoRTS => 20-500
+msf auxiliary(scanner/portscan/tcp) > run
+[+] 192.168.133.129       - 192.168.133.129:22 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:21 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:23 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:25 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:53 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:80 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:111 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:139 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:445 - TCP OPEN
+[*] 192.168.133.129       - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+msf auxiliary(scanner/portscan/tcp) > 
