@@ -1,0 +1,43 @@
+┌──(kali㉿kali)-[~]
+└─$ msfconsole -q
+
+msf > use auxiliary/scanner/p
+
+Matching Modules
+================
+
+   #   Name                                                       Disclosure Date  Rank    Check  Description
+   -   ----                                                       ---------------  ----    -----  -----------
+   0   auxiliary/scanner/printer/canon_iradv_pwd_extract          .                normal  No     Canon IR-Adv Password Extractor
+   1   auxiliary/scanner/portscan/ftpbounce                       .                normal  No     FTP Bounce Port Scanner
+   2   auxiliary/scanner/pop3/pop3_version                        .                normal  No     POP3 Banner Grabber
+   3   auxiliary/scanner/pop3/pop3_login                          .                normal  No     POP3 Login Utility
+   4   auxiliary/scanner/pcanywhere/pcanywhere_login              .                normal  No     PcAnywhere Login Scanner
+   5   auxiliary/scanner/pcanywhere/pcanywhere_tcp                .                normal  No     PcAnywhere TCP Service Discovery
+   6   auxiliary/scanner/pcanywhere/pcanywhere_udp                .                normal  No     PcAnywhere UDP Service Discovery
+   7   auxiliary/scanner/portmap/portmap_amp                      .                normal  No     Portmapper Amplification Scanner
+   8   auxiliary/scanner/postgres/postgres_dbname_flag_injection  .                normal  No     PostgreSQL Database Name Command Line Flag Injection
+   9   auxiliary/scanner/postgres/postgres_login                  .                normal  No     PostgreSQL Login Utility
+   10  auxiliary/scanner/postgres/postgres_version                .                normal  No     PostgreSQL Version Probe
+   11  auxiliary/scanner/postgres/postgres_hashdump               .                normal  No     Postgres Password Hashdump
+   12  auxiliary/scanner/postgres/postgres_schemadump             .                normal  No     Postgres Schema Dump
+   13  auxiliary/scanner/printer/printer_list_dir                 .                normal  No     Printer Directory Listing Scanner
+   14  auxiliary/scanner/printer/printer_env_vars                 .                normal  No     Printer Environment Variables Scanner
+   15  auxiliary/scanner/printer/printer_delete_file              .                normal  No     Printer File Deletion Scanner
+   16  auxiliary/scanner/printer/printer_download_file            .                normal  No     Printer File Download Scanner
+   17  auxiliary/scanner/printer/printer_upload_file              .                normal  No     Printer File Upload Scanner
+   18  auxiliary/scanner/printer/printer_ready_message            .                normal  No     Printer Ready Message Scanner
+   19    \_ action: Change                                        .                .       .      Change ready message
+   20    \_ action: Reset                                         .                .       .      Reset ready message
+   21    \_ action: Scan                                          .                .       .      Scan for ready messages
+   22  auxiliary/scanner/printer/printer_version_info             .                normal  No     Printer Version Information Scanner
+   23  auxiliary/scanner/printer/printer_list_volumes             .                normal  No     Printer Volume Listing Scanner
+   24  auxiliary/scanner/portscan/xmas                            .                normal  No     TCP "XMas" Port Scanner
+   25  auxiliary/scanner/portscan/ack                             .                normal  No     TCP ACK Firewall Scanner
+   26  auxiliary/scanner/portscan/tcp                             .                normal  No     TCP Port Scanner
+   27  auxiliary/scanner/portscan/syn                             .                normal  No     TCP SYN Port Scanner
+
+
+Interact with a module by name or index. For example info 27, use 27 or use auxiliary/scanner/portscan/syn
+
+msf > 
