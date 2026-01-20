@@ -1,0 +1,52 @@
+msf > use auxiliary/scanner/portscan/tcp
+msf auxiliary(scanner/portscan/tcp) > show options
+
+Module options (auxiliary/scanner/portscan/tcp):
+
+   Name         Current Setting  Required  Description
+   ----         ---------------  --------  -----------
+   CONCURRENCY  10               yes       The number of concurrent ports to check per host
+   DELAY        0                yes       The delay between connections, per thread, in milliseconds
+   JITTER       0                yes       The delay jitter factor (maximum value by which to +/- DELAY) in millis
+                                           econds.
+   PORTS        1-10000          yes       Ports to scan (e.g. 22-25,80,110-900)
+   RHOSTS                        yes       The target host(s), see https://docs.metasploit.com/docs/using-metasplo
+                                           it/basics/using-metasploit.html
+   THREADS      1                yes       The number of concurrent threads (max one per host)
+   TIMEOUT      1000             yes       The socket connect timeout in milliseconds
+
+
+View the full module info with the info, or info -d command.
+
+msf auxiliary(scanner/portscan/tcp) > set RHOSTS 192.168.133.129
+RHOSTS => 192.168.133.129
+msf auxiliary(scanner/portscan/tcp) > run
+[+] 192.168.133.129       - 192.168.133.129:21 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:22 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:23 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:25 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:53 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:80 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:111 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:139 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:445 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:512 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:513 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:514 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:1099 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:1524 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:2049 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:2121 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:3306 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:3632 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:5432 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:5900 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:6000 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:6667 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:6697 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:8009 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:8180 - TCP OPEN
+[+] 192.168.133.129       - 192.168.133.129:8787 - TCP OPEN
+[*] 192.168.133.129       - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+msf auxiliary(scanner/portscan/tcp) > 
