@@ -1,3 +1,4 @@
+```
 ┌──(kali㉿kali)-[~]
 └─$ sudo su 
 [sudo] password for kali: 
@@ -192,20 +193,21 @@ having to manually list each desired thing. All ranges are inclusive.
 Commands that take a list of IDs can use ranges to help. Individual IDs must be
 separated by a `,` (no space allowed) and ranges can be expressed with either
 `-` or `..`.
+```
 
 ### Ranges of IPs
 
-There are several ways to specify ranges of IP addresses that can be mixed
-together. The first way is a list of IPs separated by just a ` ` (ASCII space),
-with an optional `,`. The next way is two complete IP addresses in the form of
-`BEGINNING_ADDRESS-END_ADDRESS` like `127.0.1.44-127.0.2.33`. CIDR
-specifications may also be used, however the whole address must be given to
-Metasploit like `127.0.0.0/8` and not `127/8`, contrary to the RFC.
-Additionally, a netmask can be used in conjunction with a domain name to
-dynamically resolve which block to target. All these methods work for both IPv4
-and IPv6 addresses. IPv4 addresses can also be specified with special octet
-ranges from the [NMAP target
-specification](https://nmap.org/book/man-target-specification.html)
+There are several ways to specify ranges of IP addresses that can be mixed together. 
+
+The first way is a list of IPs separated by just a ` ` (ASCII space), with an optional `,`. The next way is two complete IP addresses in the form of
+`BEGINNING_ADDRESS-END_ADDRESS` like `127.0.1.44-127.0.2.33`.
+
+CIDR specifications may also be used, however the whole address must be given to Metasploit like `127.0.0.0/8` and not `127/8`, contrary to the RFC.
+
+Additionally, a netmask can be used in conjunction with a domain name to dynamically resolve which block to target. All these methods work for both IPv4
+and IPv6 addresses.
+
+IPv4 addresses can also be specified with special octet ranges from the [NMAP target specification](https://nmap.org/book/man-target-specification.html)
 
 ### Examples
 
