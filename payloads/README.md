@@ -26,9 +26,9 @@ After creat the pay load to connection see in the target host and conntrol with 
 ```                                                                                                                   
 ┌──(kali㉿kali)-[~]
 └─$ ls
-'Browse Anonymously'   Downloads   myenv          Public             shell_gpt       Templates             venv
- Desktop               go          Pictures       rakuten_subs.txt   shell-gpt-env   tgpt                  Videos
- Documents             Music       profiles.csv   shell.exe          Sublist3r       tor-browser.desktop
+ Downloads   myenv          Public                Templates             venv
+ Desktop               go          Pictures       rakuten_subs.txt        Videos
+ Documents             Music       profiles.csv   shell.exe          Sublist3r      
                                                                                                                     
 ┌──(kali㉿kali)-[~]
 └─$ nc -lvp 4455            
