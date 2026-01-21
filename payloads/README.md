@@ -36,6 +36,15 @@ listening on [any] 4455 ...
 
 ```
 
+**RHOST** = Target
+
+**LHOST** = you
+
+**-p** = payload type
+
+**-f** = file type
+
+**-o** = neam of the `payload`
 
 
 
